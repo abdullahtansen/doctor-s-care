@@ -1,0 +1,36 @@
+
+.slide h3{
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+}
+.slide p{
+    color: black;
+}
+
+.images{
+    width: 800px;
+    height: 500px;
+}
+
+.slider{
+    margin-top:150px;
+    margin-left: 50px;
+    margin-right: 20px;
+    width: 600px;
+}
+.btns{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.slides{
+    background-color:aqua;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}

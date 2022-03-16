@@ -1,24 +1,27 @@
 import React from 'react';
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import logo from '../../../img/logo/dental logo.jpg'
+import './Header.css';
 
 const Header = () => {
     return (
         <>
-        <Navbar bg="black" variant="black">
+        <Navbar CollapseOnSelect expand="lg" className='nav'>
           <Container>
-          <Navbar.Brand href="#home">Doctor's-Care</Navbar.Brand>
-          <Nav className="me-auto">
-            <NavLink exact to="/home">Home</NavLink>
-            <NavLink to="/our">Our Doctor's</NavLink>
-            <NavLink to="/patient">Patient Service's</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
-            <NavLink to="/about">About</NavLink>
+          <Navbar.Brand href="#home" className="brand"><img className='logo' src={logo} alt="" /></Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="nav pt-1">
+            <NavLink className="navlink" to="/home">Home</NavLink>
+            <NavLink className="navlink" to="/Our">Our Doctor's</NavLink>
+            <NavLink className="navlink" to="/patient">Patient Service's</NavLink>
+            <NavLink className="navlink" to="/contact">Contact</NavLink>
+            <NavLink className="navlink" to="/about">About</NavLink>
+            <Button style={{marginRight:"15px",marginTop:"5px"}}>Login</Button>
+          <Button style={{marginRight:"15px",marginTop:"5px"}}>Register</Button>
           </Nav>
-          <Nav className='me-2px'>
-          <Button style={{marginRight:"15px"}}>Login</Button>
-          <Button>Register</Button>
-          </Nav>
+          </Navbar.Collapse>
           </Container>
         </Navbar>
       </>

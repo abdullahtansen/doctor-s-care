@@ -1,8 +1,9 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
-import slider1 from '../../../img/slider1.jpg';
-import slider2 from '../../../img/slider2.jpg';
-import slider3 from '../../../img/slider3.jpg';
+import { Button, Carousel } from 'react-bootstrap';
+import './Banner.css';
+import slider1 from '../../../img/banner/slider1.jpg';
+import slider2 from '../../../img/banner/slider2.jpg';
+import slider3 from '../../../img/banner/slider3.jpg';
  
 
 const Banner = () => {
@@ -10,36 +11,50 @@ const Banner = () => {
        
             <Carousel>
   <Carousel.Item className="slide">
-    <img style={{height:"100%",width:"100%"}}
+      <div className='d-flex slides'>
+      <div className='slider'>
+      <h3>Professional & highly trained Dental Staff</h3>
+      <p>We are protect your teeth any kind of problems. Our Team will give you best solution for your teeth</p>
+      <Button className='bg-danger btns'>Learn More</Button>
+      </div>
+      <div className='images'>
+      <img style={{height:"100%",width:"100%"}}
       src={slider1}
       alt="First slide"
     />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
+      </div>
+      </div>
   </Carousel.Item>
+
   <Carousel.Item className="slide">
-    <img style={{height:"100%",width:"100%"}}
+     <div className='d-flex slides'>
+      <div className='slider'>
+      <h3>Professional & highly trained Dental Staff</h3>
+      <p>We are protect your teeth any kind of problems. Our Team will give you best solution for your teeth</p>
+      <Button className='bg-danger btns'>Learn More</Button>
+      </div>
+      <div className='images'>
+      <img style={{height:"100%",width:"100%"}}
       src={slider2}
-      alt="Second slide"
+      alt="First slide"
     />
-
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
+      </div>
+      </div>
   </Carousel.Item>
   <Carousel.Item className="slide">
-    <img style={{height:"100%",width:"100%"}}
+  <div className='d-flex slides'>
+      <div className='slider'>
+      <h3>Professional & highly trained Dental Staff</h3>
+      <p>We are protect your teeth any kind of problems. Our Team will give you best solution for your teeth</p>
+      <Button className='bg-danger btns'>Learn More</Button>
+      </div>
+      <div className='images'>
+      <img style={{height:"100%",width:"100%"}}
       src={slider3}
-      alt="Third slide"
+      alt="First slide"
     />
-
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
+      </div>
+      </div>
   </Carousel.Item>
 </Carousel>
     );

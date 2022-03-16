@@ -1,0 +1,16 @@
+[
+    {   "id":"1",
+        "name":"Peter Vincent",
+        "img":"https://i.ibb.co/9GYMqn2/doctor1.jpg",
+        "work":"Teeth Whitening Expert"},
+    
+    {   "id":"2",
+        "name":"Sally Steele",
+        "img":"https://i.ibb.co/Ph0m4r0/doctor2.jpg",
+        "work":"Tooth Extraction Expert"},
+    
+    {   "id":"3",
+        "name":"Camille Walters",
+        "img":"https://i.ibb.co/0F1Svwm/doctpr-3.jpg",
+        "work":"Teeth Fillings Expert"}
+]

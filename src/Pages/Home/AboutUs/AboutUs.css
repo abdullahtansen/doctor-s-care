@@ -1,0 +1,22 @@
+img{
+   height: 50px;
+}
+.images{
+    margin-left: 80px;
+}
+h2{
+    margin-top: 20px;
+}
+p{
+    margin-right: 50px;
+}
+.bg{
+    background-color: #f7e7c0;
+}
+.btn{
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    background-color: #ff0066;
+}
