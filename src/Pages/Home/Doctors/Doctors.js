@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import './Doctors.css'
 import Doctor from '../Doctor/Doctor';
+import { Container } from 'react-bootstrap';
 
 const Doctors = () => {
     const [doctors,setDoctors] = useState([]);
@@ -12,15 +13,17 @@ const Doctors = () => {
         .then(data => setDoctors(data))
     },[])
     return (
-        <div className='doctors'>
-            <h2 className="text-center doctor">Our Doctors</h2>
+        <section>
+            <Container className='pt-5'>
+            <h2 className="text-center">Our Doctors</h2>
             <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio obcaecati nulla ad molestias debitis odit quas dicta eos.</p>
             <div className="row">
                 {doctors.map(doctor=><Doctor
                 key={doctor.id}
                 doctor={doctor}></Doctor>)}
                 </div>
-        </div>
+        </Container>
+        </section>
     );
 };
 

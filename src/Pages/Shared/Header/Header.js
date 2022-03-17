@@ -16,7 +16,7 @@ const Header = () => {
             <NavLink className="navlink" to="/home">Home</NavLink>
             <NavLink className="navlink" to="/Our">Our Doctor's</NavLink>
             <NavLink className="navlink" to="/patient">Patient Service's</NavLink>
-            <NavLink className="navlink" to="/contact">Contact</NavLink>
+            <NavLink className="navlink" to="/blogs">Blogs</NavLink>
             <NavLink className="navlink" to="/about">About</NavLink>
             <Button style={{marginRight:"15px",marginTop:"5px"}}>Login</Button>
           <Button style={{marginRight:"15px",marginTop:"5px"}}>Register</Button>

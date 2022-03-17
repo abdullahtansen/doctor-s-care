@@ -1,12 +1,12 @@
 import { Switch } from 'react-router-dom';
 import { BrowserRouter,Route} from 'react-router-dom';
 import './App.css';
-import AboutUs from './Pages/Home/AboutUs/AboutUs';
+import AboutUs from './Pages/AboutUs/AboutUs';
 import Doctors from './Pages/Home/Doctors/Doctors';
 import Home from './Pages/Home/Home';
-import PatientServices from './Pages/Home/PatientServices/PatientServices';
 import Login from './Pages/Login/Login';
 import NotFound from './Pages/NotFound/NotFound';
+import Patients from './Pages/Patients/Patients';
 import Header from './Pages/Shared/Header/Header';
 
 
@@ -24,7 +24,7 @@ function App() {
           </Route>
           <Route path=
           "/patient">
-            <PatientServices></PatientServices>
+            <Patients></Patients>
           </Route>
           <Route path="/about">
            <AboutUs></AboutUs>
