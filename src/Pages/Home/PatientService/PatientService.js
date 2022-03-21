@@ -6,7 +6,7 @@ const PatientService = ({patient}) => {
     const {img,name,price,description} = patient;
     return (
         <div className='col-12 col-lg-4 border gap{2} card-body'>
-        <img className="image img-fluid" src={img} alt="" />
+        <img className="image" src={img} alt="" />
       <h2 className='text-center name'>{name}</h2>
         <p className='text-center description'>{description.slice(0,100)}</p>
         <h3 className='text-danger text-center'>Price: {price}</h3>

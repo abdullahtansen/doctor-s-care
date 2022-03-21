@@ -12,6 +12,7 @@ const PatientServices = () => {
         .then(data=>setPatients(data))
     },[])
     return (
+        <section>
         <div className='patientservices'>
             <h3 className='text-danger text-center mt-5'>Our Patient Services</h3>
             <p className='text-center mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus corporis voluptatibus temporibus,</p>
@@ -24,7 +25,7 @@ const PatientServices = () => {
                 <Link to="/patient">
             <Button>See More</Button></Link>
             </div>
-        </div>
+        </div></section>
     );
 };
 

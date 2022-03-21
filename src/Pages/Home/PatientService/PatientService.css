@@ -13,10 +13,10 @@
     margin-bottom: 10px;
 }
 .image{
-    width: 370px;
-    
+    width: 100%;
+    height: auto;
     margin-left: 0px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .name{
     font-size: 28px;

@@ -1,13 +1,23 @@
-.spinner{
-    width:"100%";
-    margin-left:"540px";margin-right:"150px";
-    margin-top:"20px";
+.skill-container{
+    margin-bottom: 50px;
 }
-.skill small{
+section{
+    padding: 30px;
+}
+.skill{
+    width: 700px;
+    color: rgb(78, 44, 44);
     display: inline-block;
+    margin-top: 40px;
+}
+.spinner{
+    width: 70%;
+}
+.our{
     font-size: 30px;
-    margin-top: 20px;
     font-weight: 700;
     color: rgb(240, 40, 40);
-    margin-right: 140px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 350px;
 }

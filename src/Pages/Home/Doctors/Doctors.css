@@ -1,12 +1,9 @@
-
-h2{
-    font-size: 35px;
-    font-family:monospace;
+.body{
+    margin-right: 10px;
 }
-p{
-    font-weight: 400;
-    font-size: 22px;
+h2{
+    font-size: 30px;
 }
 section{
-    background-color: #fcf4e0;
+   padding: 15px;
 }

@@ -14,12 +14,16 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="nav pt-1">
             <NavLink className="navlink" to="/home">Home</NavLink>
-            <NavLink className="navlink" to="/Our">Our Doctor's</NavLink>
+            <NavLink className="navlink" to="/our">Our Doctor's</NavLink>
             <NavLink className="navlink" to="/patient">Patient Service's</NavLink>
             <NavLink className="navlink" to="/blogs">Blogs</NavLink>
             <NavLink className="navlink" to="/about">About</NavLink>
-            <Button style={{marginRight:"15px",marginTop:"5px"}}>Login</Button>
-          <Button style={{marginRight:"15px",marginTop:"5px"}}>Register</Button>
+           <NavLink className="navlink" to="/login">
+           <Button style={{marginRight:"15px",marginTop:"5px"}}>Login</Button>
+           </NavLink>    
+           <NavLink className="navlink" to="/register">
+           <Button style={{marginRight:"15px",marginTop:"5px"}}>Register</Button>
+           </NavLink>    
           </Nav>
           </Navbar.Collapse>
           </Container>

@@ -17,7 +17,7 @@ const Doctors = () => {
             <Container className='pt-5'>
             <h2 className="text-center">Our Doctors</h2>
             <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio obcaecati nulla ad molestias debitis odit quas dicta eos.</p>
-            <div className="row">
+            <div className="row body d-flex flex-nowrap">
                 {doctors.map(doctor=><Doctor
                 key={doctor.id}
                 doctor={doctor}></Doctor>)}

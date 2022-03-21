@@ -1,10 +1,10 @@
 import React from 'react';
 import { Button, Col, Form, NavLink, Row } from 'react-bootstrap';
-import login from "../../img/login.png";
+import login from'../../img/login.png';
 import { FaGoogle,FaGithubSquare } from "react-icons/fa";
-import './Login.css'
+import './Register.css'
 
-const Login = () => {
+const Register = () => {
     return (
         <div class="full-section">
             <section className='container'>
@@ -15,12 +15,20 @@ const Login = () => {
                 <Col md={6} sm={12} className="logged-in">
                 <Form className="login-form">
                     <Form.Group className="mb-3" controlId="formGroupEmail">
-                        <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" className="Email" />
+                    <Form.Label>Your Name</Form.Label>
+                        <Form.Control type="name" placeholder="Enter YOur Full Name" className="Email" />
+                        </Form.Group>
+                        <Form.Group className="mb-3" controlId="formGroupEmail">
+                        <Form.Label>Your Email</Form.Label>
+                        <Form.Control type="email" placeholder="Enter Your Email" className="Email" />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formGroupPassword">
-                        <Form.Label>Password</Form.Label>
-                        <Form.Control type="password" placeholder="Password" className="Password" />
+                        <Form.Label>Your Password</Form.Label>
+                        <Form.Control type="password" placeholder="Enter Your Password" className="Password" />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formGroupPassword">
+                        <Form.Label>Confirm Password</Form.Label>
+                        <Form.Control type="password" placeholder="Re-Type Your Password" className="Password" />
                     </Form.Group>
                     <NavLink>
                     <Button>Login</Button>
@@ -49,4 +57,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Register;
