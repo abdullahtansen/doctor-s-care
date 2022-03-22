@@ -1,4 +1,10 @@
-
+.banner-section{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.slide{
+    height: 540px;
+}
 .slide h3{
     color: black;
     font-size: 28px;
@@ -54,4 +60,5 @@ img{
     opacity: .9;
     transition: .6s ease;
     border-radius: 5px;
+    margin-top: 300px;
 }

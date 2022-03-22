@@ -13,10 +13,18 @@ const Footer = () => {
             <Col lg={3} className="dental-care">
             <h5>Bangladesh Dental Care</h5>
             <div className='social-media'>
-            <a href="https://www.facebook.com/abdullahtansen/" target="_blank" rel="noreferrer"><FaFacebookF className="icon"></FaFacebookF></a>
-            <a href="https://www.instagram.com/abdullah_al_tansen/?hl=en" target="_blank" rel="noopener noreferrer"><FaInstagram className='icon'></FaInstagram></a>
-            <a href="hhttps://github.com/abdullahtansen" target="_blank" rel="noopener noreferrer"><FaGithub className="icon"></FaGithub></a>
-            <a href="https://www.linkedin.com/in/abdullahtansen/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn className="icon"></FaLinkedinIn></a>
+            <a href="https://www.facebook.com/abdullahtansen/" target="_blank" rel="noreferrer">
+                <FaFacebookF className="icon"></FaFacebookF>
+                </a>
+            <a href="https://www.instagram.com/abdullah_al_tansen/?hl=en" target="_blank" rel="noopener noreferrer">
+                <FaInstagram className='icon'></FaInstagram>
+                </a>
+            <a href="hhttps://github.com/abdullahtansen" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="icon"></FaGithub>
+                </a>
+            <a href="https://www.linkedin.com/in/abdullahtansen/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedinIn className="icon"></FaLinkedinIn>
+                </a>
             </div>
             <br></br>
             <p className='mt-3'>

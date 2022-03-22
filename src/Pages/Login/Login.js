@@ -3,8 +3,10 @@ import { Button, Col, Form, NavLink, Row } from 'react-bootstrap';
 import login from "../../img/login.png";
 import { FaGoogle,FaGithubSquare } from "react-icons/fa";
 import './Login.css'
+import useFirebase from '../../hooks/useFirebase';
 
 const Login = () => {
+    const {signInUsingGoogle} = useFirebase();
     return (
         <div class="full-section">
             <section className='container'>
@@ -34,7 +36,7 @@ const Login = () => {
                     </div>
                     <div className='login-btn'>
                         <div>
-                        <Button className="google-btn">
+                        <Button onClick={signInUsingGoogle} className="google-btn">
                             <FaGoogle style={{marginRight:"10px",marginBottom:"3px",color:"black",fontSize:"25px"}}></FaGoogle>
                             Google Sign In</Button>
                         <Button className="git-btn">

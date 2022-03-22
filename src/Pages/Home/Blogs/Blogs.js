@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import Blog from '../Blog/Blog';
 import './Blogs.css'
 
@@ -14,11 +14,11 @@ const Blogs = () => {
             <section>
             <Container className="blogs-body">
             <h1 className='text-center'>Our Blogs</h1>
-            <div className='d-flex'>
+            <Row className="d-flex">
             {blogs.map(blog=><Blog
                 key ={blog.id}
                 blog={blog}></Blog>)}
-            </div>
+            </Row>
             </Container>
             </section>
     );

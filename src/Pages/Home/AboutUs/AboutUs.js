@@ -9,7 +9,7 @@ const AboutUs = () => {
 <Container>
             <div className='d-flex row bg py-5'>
             <div className='col-lg-6 col-md-6 col-sm-12'>
-                <img style={{width:"80%",height:'350px',marginLeft:"100px"}} className='images' src={aboutUs} alt="" />
+                <img style={{width:"80%",height:'350px',marginLeft:"10px"}} className='images' src={aboutUs} alt="" />
             </div>
             <div className='col-lg-6 col-md-6 col-sm-12'>
                 <h2>Welcome To Bangladesh Dental Care</h2>
