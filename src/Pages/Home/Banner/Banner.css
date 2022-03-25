@@ -1,9 +1,5 @@
-.banner-section{
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
 .slide{
-    height: 540px;
+    height: auto;
 }
 .slide h3{
     color: black;
@@ -13,24 +9,14 @@
 .slide p{
     color: black;
 }
-
 .images{
-    height: 500px;
+    height: 350px;
+    width: 500px;
 }
-
 .slider{
     margin-top:150px;
     margin-left: 50px;
     margin-right: 20px;
-    width: 600px;
-}
-.btns{
-    padding: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 20px;
-    letter-spacing: 2px;
-    font-size: 18px;
 }
 .slides{
     background-color:#fcf4e0;
@@ -40,7 +26,7 @@
   display: none !important;
 }
 img{
-    border-radius: 40px;
+    border-radius: 10px;
 }
 .carousel-indicators [data-bs-target]{
     box-sizing: content-box;

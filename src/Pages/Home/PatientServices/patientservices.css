@@ -6,10 +6,3 @@
 .see-more{
     margin-top: 20px;
 }
-
-button:hover{
-    border: none;
-    text-align: center;
-    font-size: 16px;
-    transition: 0.3s;
-}

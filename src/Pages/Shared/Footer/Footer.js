@@ -53,9 +53,9 @@ const Footer = () => {
             
             <Col lg={3}>
                 <h3>WORK INQUIRIES</h3>
-                <p>Interested in working with us?
+                <p className="working">Interested in working with us?
                     <br />
-                    <a href="https://abdullahaltansen899@gmail.com" 
+                    <a className="gmail" href="https://abdullahaltansen899@gmail.com" 
                    rel='noreferrer' target="_blank">abdullahaltansen899@gmail.com</a>
                 </p>
                 <h5 className='mt-5'>PHONE</h5>

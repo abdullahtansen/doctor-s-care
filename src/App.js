@@ -1,6 +1,7 @@
 import { Switch } from 'react-router-dom';
 import { BrowserRouter,Route} from 'react-router-dom';
 import './App.css';
+import AuthProvider from './contexts/AuthProvider';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Blogs from './Pages/Home/Blogs/Blogs';
 import Doctors from './Pages/Home/Doctors/Doctors';
@@ -16,6 +17,7 @@ import Header from './Pages/Shared/Header/Header';
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <BrowserRouter>
       <Header></Header>
       <Switch>
@@ -50,6 +52,7 @@ function App() {
       </Switch>
       <Footer></Footer>
       </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }

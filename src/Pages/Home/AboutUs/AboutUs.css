@@ -3,6 +3,7 @@ img{
 }
 .images{
     margin-left: 0px;
+    width: 300px;
 }
 h2{
     margin-top: 20px;
@@ -12,11 +13,4 @@ p{
 }
 .bg{
     background-color: #fcf4e0;
-}
-.btn{
-    border-radius: 20px;
-    font-size: 22px;
-    font-weight: 700;
-    color: white;
-    background-color: #ff0066;
 }

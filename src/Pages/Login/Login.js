@@ -1,14 +1,15 @@
-import React from 'react';
 import { Button, Col, Form, NavLink, Row } from 'react-bootstrap';
 import login from "../../img/login.png";
 import { FaGoogle,FaGithubSquare } from "react-icons/fa";
 import './Login.css'
-import useFirebase from '../../hooks/useFirebase';
+import { Link } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
+
 
 const Login = () => {
-    const {signInUsingGoogle} = useFirebase();
+    const { signInUsingGoogle } = useAuth();
     return (
-        <div class="full-section">
+        <div className="full-section">
             <section className='container'>
                 <Row className="d-flex full-form">
                 <Col md={6} sm={12}>
@@ -29,8 +30,7 @@ const Login = () => {
                     </NavLink>
                     </Form>
                     <div>
-                        <p className='any-account'>Don't have any Account?  
-                        <a href="https://facebook.com">signup</a>
+                        <p className='any-account'>Don't have any Account? <Link to="/register">sign up</Link>
                         </p>
                         <h5 className='other__methods'>OR</h5>
                     </div>

@@ -5,7 +5,11 @@ section{
     padding: 30px;
 }
 .skill{
-    width: 700px;
+    /* width: 700px;
+    color: rgb(78, 44, 44);
+    display: inline-block;
+    margin-top: 40px; */
+    width: 100%;
     color: rgb(78, 44, 44);
     display: inline-block;
     margin-top: 40px;
@@ -19,5 +23,5 @@ section{
     color: rgb(240, 40, 40);
     text-align: center;
     margin-bottom: 30px;
-    margin-left: 350px;
+    margin-left: 130px;
 }
