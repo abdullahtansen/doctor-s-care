@@ -1,5 +1,6 @@
 # doctor-s-care
-#react-react-router getting started.
+#react
+_react_router getting started.
 #then home page design.
 #header navlink setup
 #our doctors 
